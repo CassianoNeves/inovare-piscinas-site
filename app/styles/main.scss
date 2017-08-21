@@ -62,7 +62,7 @@ main > section {
 }
 
 .bg-blue {
-    background-color: #009EE3;
+    background-color: #003896;
 }
 
 /* Sweep To Right */
@@ -132,7 +132,7 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: #009EE3;
+	color: #003896;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
@@ -163,7 +163,7 @@ main > section {
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    // border-bottom: 1px solid #003896;
     content: "";
     display: block;
     left: 45%;
@@ -499,14 +499,14 @@ h1.navbar-brand {
 }
 
 .fancybox-next span {
-    background: url("../images/right.png") no-repeat scroll center center #009ee3;
+    background: url("../images/right.png") no-repeat scroll center center #003896;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
-    background: url("../images/left.png") no-repeat scroll center center #009ee3;
+    background: url("../images/left.png") no-repeat scroll center center #003896;
     height: 50px;
     width: 50px;
     left: 0;
@@ -517,7 +517,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
+    background-color: #a7a7a7;
     color: #fff;
 }
 
@@ -597,9 +597,9 @@ h1.navbar-brand {
 }
 
 .service-item:hover .service-icon {
-    border: 3px solid #009ee3;
+    border: 3px solid #003896;
     margin-bottom: 20px;
-    color: #009ee3;
+    color: #003896;
 }
 
 .service-icon i {
@@ -696,7 +696,7 @@ ul.external li a {
 }
 
 ul.external li a:hover {
-    background-color: #009EE3;
+    background-color: #003896;
     color: #fff;
 }
 
@@ -839,7 +839,7 @@ ul.external li a:hover {
 }
 
 .price-table.featured .value {
-    background-color: #009EE3;
+    background-color: #003896;
     color: #fff;
 }
 
@@ -888,7 +888,7 @@ ul.external li a:hover {
 
 .price-table.featured ul li:last-child,
 .price-table ul li:last-child:hover {
-    background-color: #009EE3;
+    background-color: #003896;
 }
 
 .price-table.featured ul li:last-child a,
@@ -1125,7 +1125,7 @@ textarea.form-control {
 }
 
 .footer-social ul li a:hover {
-    color: #009EE3;
+    color: #003896;
 }
 
 .footer-content > p {
@@ -1142,6 +1142,10 @@ textarea.form-control {
 /*============================================================
 	For Small Desktop
 ==============================================================*/
+
+.slider-logo {
+  width: 300px;
+}
 
 @media (min-width: 980px) and (max-width: 1150px) {
 
@@ -1166,6 +1170,10 @@ textarea.form-control {
 ==============================================================*/
 
 @media (min-width: 768px) and (max-width: 979px) {
+
+  .slider-logo {
+    width: 200px;
+  }
 
 /* home slider  */
     .caption-content h2 {
@@ -1225,6 +1233,10 @@ textarea.form-control {
 
 @media only screen and (max-width: 767px) {
 
+    .slider-logo {
+    	width: 150px;
+    }
+
     body {
         font-size: 14px;
     }
@@ -1235,6 +1247,7 @@ textarea.form-control {
 
     .sec-title h2 {
         font-size: 25px;
+        padding-top: 20px;
     }
 
     .sec-title h2:after {
@@ -1371,6 +1384,10 @@ textarea.form-control {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+  .slider-logo {
+    width: 200px
+  }
+
     .sec-title h2:after {
         left: 38%;
     }
@@ -1444,4 +1461,16 @@ textarea.form-control {
     .footer-content {
         width: 380px;
     }
+}
+
+.navbar-inverse .navbar-nav > li> a {
+  color: #fff
+}
+
+#navigation.animated-header {
+  padding: 15px 0;
+}
+
+.btn-blue {
+  background-color: rgba(0,56,150,.78);
 }

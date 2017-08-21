@@ -252,10 +252,11 @@ function init() {
 
     // Create the Google Map using our element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
+		map.setCenter(new google.maps.LatLng(-26.2952943, -48.8457802));
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(22.402789, 91.822156),
+        position: new google.maps.LatLng(-26.2952943, -48.8457802),
         map: map,
 		icon: 'images/icons/map-marker.png',
     });

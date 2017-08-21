@@ -17,6 +17,7 @@
 
 .bg-img {
 	background-position: center center;
+
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
@@ -88,9 +89,15 @@
 	right: 50px;
 }
 
+#nav-arrows > a.sl-prev:hover {
+	background-color: #003896;
+	border-color: #003896;
+	color: #fff;
+}
+
 #nav-arrows > a.sl-next:hover {
-	background-color: #009EE3;
-	border-color: #009EE3;
+	background-color: #003896;
+	border-color: #003896;
 	color: #fff;
 }
 
@@ -155,8 +162,15 @@
 }
 
 .bg-img-1 {
-	background-image: url(../images/slider/pool_people.jpg);
+	background-position-y: 92px;
+	background-image: url(../images/slider/water2.jpg);
 }
+
+.bg-img-1-inside {
+	background-color: rgba(55, 244, 255, 0.48);
+	height: 92px;
+}
+
 .bg-img-2 {
 	background-image: url(../images/slider/familia.jpg);
 }
@@ -164,6 +178,13 @@
 	background-image: url(../images/slider/foto4.jpg);
 }
 
+.logo-front {
+	background-image: url(../images/logo_Inovare.png);
+}
+
+.slider-logo {
+	margin-top: 100px;
+}
 
 /* Animations for content elements */
 

@@ -15,8 +15,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='app/styles_bundle.min.css' rel='stylesheet' type='text/css'>
     <link href='app/vendor_styles_bundle.min.css' rel='stylesheet' type='text/css'>
+    <link href='app/styles_bundle.min.css' rel='stylesheet' type='text/css'>
   </head>
 
   <body id="body">
@@ -41,10 +41,15 @@
                     </button>
     			<!-- /responsive nav button -->
 
+          <div class="">
+            <img src="images/logo_Inovare2.png" width="80" alt="">
+          </div>
+
     			<!-- logo -->
-    			<h1 style="color: #fff;" class="navbar-brand">
+    			<!-- <h1 style="color: #fff;" class="navbar-brand">
     				<a href="#home-slider">Inovare Piscinas</a>
-    			</h1>
+
+    			</h1> -->
     			<!-- /logo -->
                 </div>
 
@@ -73,72 +78,75 @@
         ==================================== -->
 
     <section id="home-slider">
-        <div id="slider" class="sl-slider-wrapper">
-
+      <div id="slider" class="sl-slider-wrapper">
     		<div class="sl-slider">
+          <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
 
-    			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-            <div class="bg-img bg-img-1"></div>
+              <div class="bg-img bg-img-1">
+                <div class="bg-img-1-inside">
+
+                </div>
+              </div>
+
 
     				<div class="slide-caption">
-                            <div class="caption-content pattern">
-                                <h2 class="animated fadeInDown">Inovare Piscinas</h2>
-                                <span class="animated fadeInDown">Você não Precisa de muito para ser Feliz!</span>
-                            </div>
-                        </div>
+              <div class="caption-content ">
+                <h2 class="animated fadeInDown"></h2>
+                <img class="slider-logo" src="images/logo_Inovare.png" alt="">
+              </div>
+            </div>
+    			</div>
 
+    			<!-- <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+            <div class="bg-img bg-img-2"></div>
+
+    				<div class="slide-caption">
+              <div class="caption-content ">
+
+                <span class="animated fadeInDown">Você não Precisa de muito para ser Feliz!</span>
+              </div>
+            </div>
     			</div>
 
     			<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-
-    				<div class="bg-img bg-img-2"></div>
-    				<div class="slide-caption">
-              <div class="caption-content pattern">
-                  <h2 class="animated fadeInDown"></h2>
-                  <span class="animated fadeInDown">A um passo para sua familia mais Feliz.</span>
-              </div>
-            </div>
-
-    			</div>
-
-    			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-
     				<div class="bg-img bg-img-3"></div>
+
     				<div class="slide-caption">
-              <div class="caption-content pattern">
-                  <h2 class="animated fadeInDown"></h2>
-                  <span class="animated fadeInDown">Beleza e conforto como você nunca imaginou</span>
+              <div class="caption-content ">
+                <h2 class="animated fadeInDown"></h2>
+                <span class="animated fadeInDown">A um passo para sua familia mais Feliz.</span>
               </div>
             </div>
+    			</div> -->
 
-    			</div>
 
-    		</div><!-- /sl-slider -->
+    		</div>
+        <!-- /sl-slider -->
 
-                <!--
-                <nav id="nav-arrows" class="nav-arrows">
-                    <span class="nav-arrow-prev">Previous</span>
-                    <span class="nav-arrow-next">Next</span>
-                </nav>
-                -->
+        <!--
+        <nav id="nav-arrows" class="nav-arrows">
+            <span class="nav-arrow-prev">Previous</span>
+            <span class="nav-arrow-next">Next</span>
+        </nav>
+              -->
 
-                <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
-                    <a href="javascript:;" class="sl-prev">
-                        <i class="fa fa-angle-left fa-3x"></i>
-                    </a>
-                    <a href="javascript:;" class="sl-next">
-                        <i class="fa fa-angle-right fa-3x"></i>
-                    </a>
-                </nav>
-
+        <!-- REMOVIDO POR QUE NÂO TEREMOS POR ENQUANTO SLIDER -->
+        <!-- <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+          <a href="javascript:;" class="sl-prev">
+            <i class="fa fa-angle-left fa-3x"></i>
+          </a>
+          <a href="javascript:;" class="sl-next">
+            <i class="fa fa-angle-right fa-3x"></i>
+          </a>
+        </nav>
 
     		<nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
     			<span class="nav-dot-current"></span>
     			<span></span>
     			<span></span>
     		</nav>
-
-    	</div><!-- /slider-wrapper -->
+    	</div> -->
+      <!-- /slider-wrapper -->
     </section>
 
         <!--
@@ -477,10 +485,10 @@
 
     				<div class="col-md-5 wow animated fadeInRight">
     					<address class="contact-details">
-    						<h3>Contact Us</h3>
-    						<p><i class="fa fa-pencil"></i>Phoenix Inc.<span>PO Box 345678</span> <span>Little Lonsdale St, Melbourne </span><span>Australia</span></p><br>
-    						<p><i class="fa fa-phone"></i>Phone: (415) 124-5678 </p>
-    						<p><i class="fa fa-envelope"></i>website@yourname.com</p>
+    						<h3>Contate-nos </h3>
+    						<p><i class="fa fa-pencil"></i>Inovare Piscinas <span>Max Colin 125, Centro, Santa Catarina</span><span>Brasil</span></p><br>
+    						<p><i class="fa fa-phone"></i>Telefone: (47) 99506-2263 </p>
+    						<p><i class="fa fa-envelope"></i>contato@inovarepiscinas.com.br</p>
     					</address>
     				</div>
 
@@ -521,7 +529,7 @@
     					</ul>
     				</div>
 
-    				<p>Copyright &copy; 2014-2015 Design and Developed By<a href="http://www.themefisher.com">Themefisher</a> </p>
+    				<p>Copyright &copy; 2017 Design and Developed By<a href="http://www.themefisher.com">Themefisher</a> </p>
     			</div>
     		</div>
     	</div>
